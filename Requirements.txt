@@ -1,0 +1,34 @@
+Let a sample data base application , called [ VNC Channals ] 
+Keep track of a channal , program , ads , person , department , season , episode , studio and device .
+Data Requirements for VNC channals :
+- Each channal has a unique Frequency , FEC , Polarisation , Desqription , location , Name and Type .
+- channal show program and Ads .
+-  Each Ads has unique sponser_name , duration , price per minute and cost . 
+- Each program has a unique ID , Desqription and Name .
+- Each program has season .
+- season has unique number , start_date and end_date.
+- season has episode .
+- Each episode has content , description , title and number .
+- program including sport and news program 
+Hence , we use a disjoine type [ program ] that is a subset of the disjoine of news and sport entity type .
+- Each sport program display a live_match.
+- Each news program display a live_news .
+- Each live_match has a date , start time , end time , home team name , away team name , away team score and home team score .
+- Each live_news hase a content , source and date .
+- Each channal has studio , department and person .
+- Each studio has unique Studio_id and location . 
+- Each studio use Devices. 
+- Each Devices has unique serial_number , model , cost and date_of_purches .
+- Each department has unique name and location .
+- Each person has unique ssn , first_name , mid_name , last_name ,  birth_date , gender , age and nationaity .
+- person is either a manager or a stuff or a guest .
+Hence, we use a disjoine type [person] that is a subset of the disjoine of manager and stuff and guest entity type .
+- Each manager has monthly_salary and mange a department .
+- Each guest has Hourly_salart .
+- Each staff has a job_title and monthly_salary and work on department .
+- staff including director , presenter and engineer .
+Hence , we use a disjoine type [ staff ] that is a subset of the disjoine of director , presenter and engineer entity type . 
+- Each director directing a season .
+- Each presenter present a program .
+- Each engineer has eng_type and control a device .
+

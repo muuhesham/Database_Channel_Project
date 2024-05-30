@@ -1,0 +1,31 @@
+project name: VNC Channel (vision network channel)
+
+project code:MMOAA
+
+Members team:
+1-leader(alaa mersa) stat/cs
+2-muhesham(me) cs
+3-omar sa3ed stat/cs
+4-muhammed ashraf cs
+5-abdelsatar stat/cs
+
+
+requirements the project
+========================
+
+[1] requirements database and problems (true)
+[2] eer diagram drawing (true)
+[3] mapping eer for relationl model  (true)
+[4] eer diagram on workbench (true)
+   .eer diagram(tables)
+   .relations between tables (total,partial,1:1,1:M,M:N)	
+   .insert data
+   .forwrad engineer last step before queries
+[5] queries [last step to implement project](true) 
+ 
+========================
+
+---------------------------------------------------------------------
+special thanks for DR.WAEL ZAKRIEA [COMP207-Database]  :)
+---------------------------------------------------------------------
+
